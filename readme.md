@@ -6,6 +6,7 @@ After that, run the eBPF program loader using `./run`
 
 <br>
 After that, switch the directory to modules and insert the kernel module that will call `prepare_kernel_cred` function when loaded. This log will become visible in the tracepipe.
+<br>
 ```
 ➜  prog4 git:(master) ✗ sudo cat /sys/kernel/tracing/trace_pipe
 [sudo] password for sh4dy: 
